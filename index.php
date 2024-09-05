@@ -52,6 +52,17 @@
     </head>
 
     <body>
+        <h1>Boolean Hotels List</h1>
+        <!-- Devo stampare a schermo tutti i dati degli hotel -->
+         <?php foreach ($hotels as $hotel) {?>
+            <div>
+                <h2><?php echo $hotel['name'];?></h2>
+                <p><?php echo $hotel['description'];?></p>
+                <p>Parking: <?php echo $hotel['parking']? 'Yes' : 'No';?></p>
+                <p>Vote: <?php echo $hotel['vote'];?>/5</p>
+                <p>Distance to Center: <?php echo $hotel['distance_to_center'];?> km</p>
+            </div>
+        <?php }?>
 
     </body>
 
