@@ -13,3 +13,12 @@ Dopo aggiungete Bootstrap e mostrate le informazioni con una tabella.
 
 NOTA: deve essere possibile utilizzare entrambi i filtri contemporaneamente (es. ottenere una lista con hotel che dispongono di parcheggio e che hanno un voto di tre stelle o superiore)
 Se non viene specificato nessun filtro, visualizzare come in precedenza tutti gli hotel.
+
+# Scomposizione del problema:
+
+Creare un file index.php
+    inseririe al suo interno l'array di hotel
+    stampare a schermo tutti i dati inerenti agli hotel
+
+Successivamente, tramite l'inserimento e l'utilizzo di Bootstrap, costruire una tabella
+    mostrare a schermo tutti i dati degli hotel in questa tabella
